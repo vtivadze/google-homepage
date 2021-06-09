@@ -11,23 +11,31 @@
 </head>
 <body>
     <header id="header">
-        <nav id="main-menu">
-            <ul class="main-menu-items">
-                <li class="item"><a href="#">Gmail</a></li>
-                <li class="item"><a href="#">Images</a></li>
-                <li class="item google-apps">
-                    <a href="#">
-                        <svg focusable="false" viewBox="0 0 24 24"><path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path></svg>
-                    </a>
-                </li>
-                <li class="item avatar">
-                    <a href="#">
-                        <img src="images/avatar.jpg" alt="User avatar" width="32">
-                    </a>
-                </li>
-            </ul>
+        <nav>
+            <div class="menu main-menu">
+                <ul class="menu-items">
+                    <li class="item"><a href="#">Gmail</a></li>
+                    <li class="item"><a href="#">Images</a></li>
+                </ul>
+            </div>
+
+            <div class="menu secondary-menu">
+                <ul class="menu-items">
+                    <li class="item google-apps">
+                        <a href="#">
+                            <svg focusable="false" viewBox="0 0 24 24"><path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path></svg>
+                        </a>
+                    </li>
+                    <li class="item account">
+                        <a href="#">
+                            <img class="avatar" src="images/avatar.jpg" alt="User avatar" width="32">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
+
     <main id="main">
         <article class="google-search-main-page">
             <header>
@@ -63,28 +71,29 @@
             </footer>
         </article>
     </main>
+
     <footer id="footer">
         <section class="footer-top">
-            <div class="menu left">
-                <ul>
-                    <li><a href="#">Georgia</a></li>
+            <div class="menu footer-menu">
+                <ul class="menu-items">
+                    <li class="item"><a href="#">Georgia</a></li>
                 </ul>
             </div>
         </section>
         <section class="footer-bottom">
-            <div class="menu left">
-                <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Advertising</a></li>
-                    <li><a href="#">Business</a></li>
-                    <li><a href="#">How Search works</a></li>
+            <div class="menu footer-menu">
+                <ul class="menu-items">
+                    <li class="item"><a href="#">About</a></li>
+                    <li class="item"><a href="#">Advertising</a></li>
+                    <li class="item"><a href="#">Business</a></li>
+                    <li class="item"><a href="#">How Search works</a></li>
                 </ul>
             </div>
-            <div class="menu right">
-                <ul>
-                    <li><a href="#">Privacy</a></li>
-                    <li><a href="#">Terms</a></li>
-                    <li><a href="#">Settings</a></li>
+            <div class="menu footer-menu">
+                <ul class="menu-items">
+                    <li class="item"><a href="#">Privacy</a></li>
+                    <li class="item"><a href="#">Terms</a></li>
+                    <li class="item"><a href="#">Settings</a></li>
                 </ul>
             </div>
         </section>
