@@ -8,3 +8,32 @@ a {
     color: rgba(0, 0, 0, 0.87);
     text-decoration: none;
 }
+
+a:hover {
+    text-decoration: underline;
+}
+
+#header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 15px;
+}
+
+#main-menu .main-menu-items {
+    display: flex;   
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+}
+
+#main-menu .google-apps svg {
+    width: 24px;
+    height: 24px;
+    fill:rgb(95, 99, 104);
+}
+
+#main-menu .avatar img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
