@@ -65,6 +65,106 @@ a:hover {
     background-color: rgba(60,64,67,0.08);
 }
 
+#main {
+    display: flex;
+    justify-content: center;
+}
+
+.google-search-main-page header {
+    margin-bottom: 25px;
+}
+
+.google-search-main-page header .logo-container {
+    text-align: center;
+}
+
+.google-search-main-page section {
+    margin-bottom: 30px;
+}
+
+.google-search-main-page .search-form .form-row {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.google-search-main-page .search-form .search-input-container {
+    position: relative;
+    box-sizing: border-box;
+    padding: 15px 44px;
+    border: 1px solid #dfe1e5;
+    border-radius: 23px;
+}
+
+.google-search-main-page .search-form .search-input-container:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+
+.google-search-main-page .search-form .search-input-container .icon {
+    position: absolute;
+    display: block;
+    top: 50%;
+}
+
+.google-search-main-page .search-form .search-input-container .search-icon {
+    left: 22px;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+}
+
+.google-search-main-page .search-form .search-input-container .search-icon svg {
+    fill: #9aa0a6;
+}
+
+.google-search-main-page .search-form .search-input-container .microphone-icon {
+    right: 22px;
+    transform: translate(50%, -50%);
+    width: 24px;
+    height: 24px;
+}
+
+.google-search-main-page .search-form .search-input-container .microphone-icon:hover {
+    cursor: pointer;
+}
+
+.google-search-main-page .search-form .search-input {
+    width: 485px;
+    height: 15px;
+    border: none;
+    outline: none;
+}
+
+.google-search-main-page .search-form .search-input:focus {
+    outline: none;
+}
+
+.google-search-main-page .search-form .buttons button {
+    box-sizing: border-box;
+    display: inline-block;
+    height: 35px;
+    padding: 0 16px;
+    line-height: 27px;
+    font-size: 14px;
+    color: #3c4043;
+    background-color: #f8f9fa;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.google-search-main-page .search-form .buttons button:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.google-search-main-page .search-form .buttons button:first-child {
+    margin-right: 5px;
+}
+
 
 
 #footer {
